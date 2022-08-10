@@ -12,6 +12,8 @@
 // }
 // reverse();
 
+
+
 // Question: 02 Write a JavaScript function that checks whether a passed string is palindrome or not?
 // code:
 // function palindrome() {
@@ -30,6 +32,8 @@
 // }
 // palindrome();
 
+
+
 // Question: 03 Write a JavaScript function that generates all combinations of a string.
 // code:
 // function combination() {
@@ -43,6 +47,8 @@
 //     alert(result);
 // }
 // combination();
+
+
 
 // Question: 04 Write a JavaScript function that returns a passed string with letters in alphabetical order.
 // code:
@@ -58,6 +64,8 @@
 // }
 
 // sort();
+
+
 
 // Question: 05 Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.
 // code:
@@ -77,6 +85,8 @@
 //     document.write(str);
 // }
 // upper('the quick brown fox');
+
+
 
 // Question:06 Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.
 // code:
@@ -100,6 +110,7 @@
 // longest();
 
 
+
 // Question: 07 Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
 // code:
 // function vowel() {
@@ -117,6 +128,7 @@
 //     document.write(count);
 // }
 // vowel();
+
 
 
 // Question: 08 Write a JavaScript function that accepts a number as a parameter and check the number is prime or not.
@@ -144,11 +156,35 @@
 // prime(num);
 
 
+
 // Question: 09  Write a JavaScript function which accepts an argument and returns the type.
 // code:
+// function typeOfNumber(word) {
+//     if (word === null || word === '') {
+//         alert("please write something");
+//     }
+//     else if (typeof(word) === "number") {
+//         alert("this is a number");
+//     }
+//     else if (typeof (word) === "string") {
+//         alert("this is a string");
+//     }
+//     else if (typeof (word) === "object") {
+//         alert("this is a object");
+//     }
+//     else if (typeof (word) === "boolean") {
+//         alert("this is a boolean");
+//     }
+//     else if (typeof (word) === "function") {
+//         alert("this is a function");
+//     }
+//     else {
+//         alert("error found");
+//     }
 
+// }
 
-
+// typeOfNumber(true);
 
 
 
